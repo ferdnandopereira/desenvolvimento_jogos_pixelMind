@@ -1,4 +1,4 @@
-# desenvolvimento_jogos_pixelMind
+# Pixel Mind
 # 🎮 Nome do Jogo
 **Disciplina: Desenvolvimento de Jogos Digitais**
 
@@ -340,12 +340,12 @@ Este projeto é de uso acadêmico, desenvolvido para a disciplina de **Desenvolv
 <table>
   <tr>
     <td align="center">
-      <sub><b>Nome do Integrante 1</b></sub><br>
+      <sub><b>Luiz Fernando Pereira</b></sub><br>
       <sub>🎮 Programação (Game Logic)</sub><br>
       <a href="">GitHub</a> · <a href="">LinkedIn</a>
     </td>
     <td align="center">
-      <sub><b>Nome do Integrante 2</b></sub><br>
+      <sub><b>Tadeu Furtado Henriques</b></sub><br>
       <sub>🎨 Arte / Design</sub><br>
       <a href="">GitHub</a> · <a href="">LinkedIn</a>
     </td>
@@ -362,8 +362,8 @@ Este projeto é de uso acadêmico, desenvolvido para a disciplina de **Desenvolv
 | | |
 |---|---|
 | **Disciplina** | Desenvolvimento de Jogos Digitais |
-| **Professor(a)** | *(nome do professor)* |
-| **Instituição** | *(nome da instituição)* |
+| **Professor(a)** | *Christien Lana* |
+| **Instituição** | *Centro Universitário - UniAcademia* |
 
 ---
 
