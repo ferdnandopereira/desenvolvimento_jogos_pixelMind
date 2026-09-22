@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Hunter</title>
+</head>
+<body>
+    <style>
+        html, 
+        body,
+        .container {
+            margin: 0px;
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+            background: #d7d7d7;
+        }
+        @font-face {
+            font-family: Kenney-Future-Narrow;
+            src: url('assets/fonts/kenneys-fonts/Kenney-Future-Narrow.ttf') format('truetype');
+        }
+    </style>   
+    <script src="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.min.js"></script> 
+    <script src="//cdn.jsdelivr.net/npm/phaser@4.2.1/dist/phaser.min.js"></script>
+</body>
+    <div class="container" id="jogo-container">
+    </div>  
+    <script src="src/main.js" type="module"></script>
+</html>

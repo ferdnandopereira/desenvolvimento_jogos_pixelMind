@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2016", "DOM", "ES2017"],
+        "module": "esnext",
+        "target":"es2025",
+        "checkJs": true
+    }
+}
