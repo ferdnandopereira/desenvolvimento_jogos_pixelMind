@@ -1,5 +1,5 @@
 # Pixel Mind
-# 🎮 Nome do Jogo
+# 🎮 Monster Hunter
 **Disciplina: Desenvolvimento de Jogos Digitais**
 
 <div align="center">
@@ -33,7 +33,7 @@
 
 ## 📋 Índice
 
-- [Sobre o Projeto](#sobre-o-projeto)
+- [Visão Geral](#visao-geral)
 - [Enredo e Objetivos](#enredo-e-objetivos)
 - [Como Jogar](#como-jogar)
 - [Ferramentas e Tecnologias](#ferramentas-e-tecnologias)
@@ -48,12 +48,16 @@
 
 ---
 
-<a id="sobre-o-projeto"></a>
-## 🧠 Sobre o Projeto
+<a id="visao-geral"></a>
+## 🧠 Visão Geral
 
-O **[Nome do Jogo]** é um jogo 2D desenvolvido no âmbito da disciplina de **Desenvolvimento de Jogos Digitais**, utilizando o framework **[Phaser](https://phaser.io/)** para a construção da lógica, física, animações e interações do jogo.
+**Monster Hunter** é um jogo 2D desenvolvido no âmbito da disciplina de **Desenvolvimento de Jogos Digitais**, utilizando o framework **[Phaser](https://phaser.io/)** para a construção da lógica, física, animações e interações do jogo.
+
+O projeto tem como objetivo construir, de forma incremental, um jogo completo de exploração, batalhas por turnos, gerenciamento de monstros, itens, progressão e narrativa. A implementação é organizada em etapas, começando pela infraestrutura básica do jogo e evoluindo para sistemas de batalha, tela de título, salvamento, carregamento e exploração do mundo.
 
 Este repositório reúne todo o código-fonte, os assets (sprites, sons e cenários) e a documentação necessária para compreender, instalar e executar o jogo.
+
+> **Status:** Em desenvolvimento 🚧
 
 ### Contexto
 
@@ -303,24 +307,65 @@ Contribuições dos integrantes do grupo devem seguir um fluxo organizado de Git
 ---
 
 <a id="roadmap"></a>
-## 🗓️ Roadmap
+## 🗺️ Roadmap
 
-**✅ Etapa 1 — Concluída**
+** Etapa 1 — Setup do Projeto **
 - [x] Definição do enredo e mecânicas principais
+- [x] Criar página HTML básica
 - [x] Configuração do projeto com Phaser
-- [x] Cena de menu inicial
+- [x] Criar instância básica do jogo
+- [x] Configurar JavaScript Config para Phaser
 
-**🚧 Etapa 2 — Em andamento**
-- [x] Implementação do personagem principal e movimentação
-- [ ] Implementação de inimigos e colisões
-- [ ] Sistema de pontuação e vidas
+** Etapa 2 — Jogo Assets Projeto**
+- [x] Adicionar assets do projeto
+- [x] Documentar fontes dos assets
 
-**🎯 Etapa 3 — Planejada**
-- [ ] Criação de múltiplas fases
-- [ ] Efeitos sonoros e trilha sonora
-- [ ] Tela de Game Over e reinício
-- [ ] Ajustes finais de balanceamento e polimento
+** Etapa 3 — Sistema de Batalha**
+- [ ] Carregar assets do jogo
+- [ ] Criar layouts de Cena de Batalha
+- [ ] Criar menu de diálogo
+- [ ] Criar menu de opções
+- [ ] Criar lista de ataques
+- [ ] Implementar entrada do jogador
+- [ ] Separar lógica em componentes
+- [ ] Criar componente de vida
+- [ ] Criar compoentes de monstro
+- [ ] Implementar lógica básica de ataques
+- [ ] Implementar dano
+- [ ] Implementar nocaute
+- [ ] Projetar máquina de estados
+- [ ] Implementar estados de batalha
+- [ ] Implementar estado de item
+- [ ] Implementar estado de fuga
+- [ ] Implementar estado de monstro
+- [ ] Adicionar animações de texto
+- [ ] Adicionar animações de monstros
+- [ ] Adicionar animações de ataques
+- [ ] Adicionar transições de cena
 
+** Etapa 4 - Ferramentas de Desenvolvimento **
+- [ ] Integrar Tweakpane
+- [ ] Ajustar posicionamento de objetos
+- [ ] Testar ataques
+- [ ] Testar animações
+
+** Etapa 5 - Tela de Titulo **
+- [ ] Criar tela de título
+- [ ] Criar menu de opções
+- [ ] Implementar salvamento das opções
+- [ ] Implementar carregamento das oções
+- [ ] Integrar opções com a Battle Scene
+
+** Etapa 6 - Mapa **
+- [ ] Criar World Scene
+- [ ] Implementar movimentação
+- [ ] Implementar mapas
+- [ ] Implementar colisões
+- [ ] Implementar interação
+- [ ] Integrar exploração e batalhas
+- [ ] Expandir o mundo do jogo
+
+> As tarefas de World Scene ainda estão em fase de planejamento e serão detalhadas conforme o desenvolvimento avançar.  
 ---
 
 <a id="licença"></a>
