@@ -1,0 +1,9 @@
+{
+  "name": "lendas-do-sertao",
+  "version": "1.0.0",
+  "description": "RPG de captura de criaturas do folclore brasileiro feito com Phaser 3",
+  "scripts": {
+    "start": "npx http-server -p 8080"
+  },
+  "license": "MIT"
+}
