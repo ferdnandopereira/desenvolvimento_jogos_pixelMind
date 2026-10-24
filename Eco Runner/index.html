@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eco-Runner: O Guardião da Floresta</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- CDN Oficial do Phaser 3 -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>ECO-RUNNER: O GUARDIÃO DA FLORESTA</h1>
+    <p>Projeto Final de Jogo de Plataforma em Phaser JS | Grupo 02</p>
+  </header>
+
+  <main id="game-wrapper">
+    <div id="game-container"></div>
+  </main>
+
+  <footer>
+    <div class="controls-bar">
+      <span><span class="key-badge">A / D</span> ou <span class="key-badge">◀ ▶</span> Mover</span>
+      <span><span class="key-badge">W</span> ou <span class="key-badge">▲</span> / <span class="key-badge">Espaço</span> Pular / Pulo Duplo</span>
+      <span><span class="key-badge">Segurar Pulo</span> Planar (Glide)</span>
+    </div>
+  </footer>
+
+  <!-- Scripts do Jogo -->
+  <script src="src/audio.js"></script>
+  <script src="src/textures.js"></script>
+  <script src="src/scenes/BootScene.js"></script>
+  <script src="src/scenes/MenuScene.js"></script>
+  <script src="src/scenes/GameScene.js"></script>
+  <script src="src/scenes/GameOverScene.js"></script>
+  <script src="src/scenes/VictoryScene.js"></script>
+  <script src="src/main.js"></script>
+</body>
+</html>
