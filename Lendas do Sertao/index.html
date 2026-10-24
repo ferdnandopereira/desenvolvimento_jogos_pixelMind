@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lendas do Sertão</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #101018; overflow: hidden; }
+    #game { width: 100vw; height: 100vh; }
+  </style>
+  <!-- Phaser 3 via CDN (precisa de internet). Para rodar offline, baixe o phaser.min.js e troque o caminho. -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.min.js"></script>
+</head>
+<body>
+  <div id="game"></div>
+
+  <script src="src/systems/audio.js"></script>
+  <script src="src/data/creatures.js"></script>
+  <script src="src/data/state.js"></script>
+  <script src="src/data/map.js"></script>
+  <script src="src/systems/textures.js"></script>
+  <script src="src/scenes/BootScene.js"></script>
+  <script src="src/scenes/MenuScene.js"></script>
+  <script src="src/scenes/StarterScene.js"></script>
+  <script src="src/scenes/WorldScene.js"></script>
+  <script src="src/scenes/BattleScene.js"></script>
+  <script src="src/scenes/EndScenes.js"></script>
+  <script src="src/main.js"></script>
+</body>
+</html>
