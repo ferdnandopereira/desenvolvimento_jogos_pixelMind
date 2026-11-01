@@ -1,17 +1,16 @@
-# Pixel Mind
-# 🎮 Monster Hunter
+# 🎮 Pixel Mind
 **Disciplina: Desenvolvimento de Jogos Digitais**
 
 <div align="center">
 
 <p align="center">
   <img src="https://img.shields.io/badge/Disciplina-Desenvolvimento%20de%20Jogos%20Digitais-blue.svg" alt="Disciplina"/>
-  <img src="https://img.shields.io/badge/Framework-Phaser-8b5cf6.svg" alt="Phaser"/>
-  <img src="https://img.shields.io/badge/Projeto-Jogo%202D-6f42c1.svg" alt="Jogo 2D"/>
+  <img src="https://img.shields.io/badge/Institui%C3%A7%C3%A3o-UniAcademia-1f6feb.svg" alt="UniAcademia"/>
+  <img src="https://img.shields.io/badge/Jogos-2D%20%26%203D-6f42c1.svg" alt="Jogos 2D e 3D"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Made%20with-Phaser%203-ff69b4.svg" alt="Phaser 3"/>
+  <img src="https://img.shields.io/badge/Framework-Phaser%203-ff69b4.svg" alt="Phaser 3"/>
   <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E.svg?logo=javascript&logoColor=black" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/Node.js-18+-339933.svg?logo=node.js&logoColor=white" alt="Node.js"/>
   <img src="https://img.shields.io/badge/HTML5-Canvas-E34F26.svg?logo=html5&logoColor=white" alt="HTML5"/>
@@ -23,9 +22,9 @@
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow.svg" alt="Status"/>
 </p>
 
-*Jogo 2D desenvolvido com o framework Phaser como projeto da disciplina de Desenvolvimento de Jogos Digitais*
+*Estudo dos conceitos e técnicas de desenvolvimento de jogos digitais: programação, animações, sprites, interação com o jogador, colisões, engines e ferramentas*
 
-[📖 Documentação](docs/) · [🖼️ Capturas de Tela](#capturas-de-tela) · [🚀 Como Jogar](#como-jogar) · [🤝 Equipe](#equipe)
+[🎯 Objetivos](#objetivos) · [📚 Conteúdos](#conteudos) · [🛠️ Ferramentas](#ferramentas) · [🤝 Equipe](#equipe)
 
 </div>
 
@@ -34,15 +33,14 @@
 ## 📋 Índice
 
 - [Visão Geral](#visao-geral)
-- [Enredo e Objetivos](#enredo-e-objetivos)
-- [Como Jogar](#como-jogar)
-- [Ferramentas e Tecnologias](#ferramentas-e-tecnologias)
-- [Estrutura do Repositório](#estrutura-do-repositório)
-- [Instalação e Execução](#instalação-e-execução)
-- [Capturas de Tela e Demonstração](#capturas-de-tela)
+- [Objetivos da Disciplina](#objetivos)
+- [Conteúdos Estudados](#conteudos)
+- [Ferramentas e Tecnologias](#ferramentas)
+- [Estrutura do Repositório](#estrutura)
+- [Ambiente de Desenvolvimento](#ambiente)
+- [Roadmap de Estudos](#roadmap)
 - [Contribuindo](#contribuindo)
-- [Roadmap](#roadmap)
-- [Licença](#licença)
+- [Licença](#licenca)
 - [Equipe](#equipe)
 - [Contato](#contato)
 
@@ -51,83 +49,60 @@
 <a id="visao-geral"></a>
 ## 🧠 Visão Geral
 
-**Monster Hunter** é um jogo 2D desenvolvido no âmbito da disciplina de **Desenvolvimento de Jogos Digitais**, utilizando o framework **[Phaser](https://phaser.io/)** para a construção da lógica, física, animações e interações do jogo.
+Este repositório reúne os estudos, exercícios e implementações práticas da equipe **Pixel Mind** na disciplina de **Desenvolvimento de Jogos Digitais**, do **Centro Universitário UniAcademia**.
 
-O projeto tem como objetivo construir, de forma incremental, um jogo completo de exploração, batalhas por turnos, gerenciamento de monstros, itens, progressão e narrativa. A implementação é organizada em etapas, começando pela infraestrutura básica do jogo e evoluindo para sistemas de batalha, tela de título, salvamento, carregamento e exploração do mundo.
+A disciplina tem como foco o estudo dos **conceitos e técnicas relacionados ao desenvolvimento de jogos**, abrangendo jogos **2D e 3D**, programação, animações, sprites, interação com o jogador, detecção de colisões e a utilização de engines e ferramentas de desenvolvimento.
 
-Este repositório reúne todo o código-fonte, os assets (sprites, sons e cenários) e a documentação necessária para compreender, instalar e executar o jogo.
+Como framework principal de prática, utilizamos o **[Phaser](https://phaser.io/)**, que permite aplicar os conceitos da disciplina na construção de jogos 2D para a web.
 
 > **Status:** Em desenvolvimento 🚧
 
-### Contexto
-
-Este projeto foi desenvolvido como trabalho avaliativo, aplicando na prática os conceitos estudados em sala de aula sobre:
-
-- ✅ **Game loop e ciclo de vida de cenas (scenes)**
-- ✅ **Física e colisões 2D (Arcade Physics)**
-- ✅ **Sprites, animações e spritesheets**
-- ✅ **Entrada do jogador (teclado, mouse, touch)**
-- ✅ **Sistema de pontuação, vidas e progressão de fases**
-
-### Diferenciais
-
-- 🎨 **Arte e trilha sonora originais/adaptadas** para compor a atmosfera do jogo
-- 🧩 **Múltiplas fases/níveis** com dificuldade progressiva
-- 🕹️ **Controles responsivos**, testados em desktop *(e mobile, se aplicável)*
-- 📚 **Documentação clara** para instalação, execução e entendimento do código
-- 🤝 **Desenvolvimento colaborativo em grupo**, com uso de Git/GitHub
-
 ---
 
-<a id="enredo-e-objetivos"></a>
-## 📖 Enredo e Objetivos
-
-*(Descreva aqui o enredo/contexto do jogo.)*
-
-> **Exemplo:** Em um mundo onde a energia está acabando, o jogador controla um pequeno robô explorador que precisa atravessar fases repletas de obstáculos e inimigos para coletar cristais de energia e restaurar a luz do planeta.
-
-### 🎯 Objetivos do Jogador
+<a id="objetivos"></a>
+## 🎯 Objetivos da Disciplina
 
 <table>
   <tr>
     <td width="50%">
-      <h4>🏁 Objetivo Principal</h4>
-      <p>Concluir todas as fases do jogo, superando obstáculos e desafios até alcançar o final.</p>
+      <h4>🧩 Fundamentos de Jogos</h4>
+      <p>Compreender a arquitetura de um jogo digital: game loop, cenas, estados e ciclo de vida dos objetos.</p>
     </td>
     <td width="50%">
-      <h4>💎 Objetivos Secundários</h4>
-      <p>Coletar itens/pontos ao longo do caminho e alcançar a maior pontuação possível.</p>
+      <h4>💻 Programação de Jogos</h4>
+      <p>Aplicar lógica de programação na implementação de mecânicas, regras e comportamentos.</p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h4>❤️ Sobrevivência</h4>
-      <p>Evitar inimigos e armadilhas, gerenciando as vidas disponíveis.</p>
+      <h4>🎨 Arte e Animação</h4>
+      <p>Trabalhar com sprites, spritesheets e animações para dar vida a personagens e cenários.</p>
     </td>
     <td width="50%">
-      <h4>🏆 Progressão</h4>
-      <p>Avançar de fase em fase, com dificuldade crescente.</p>
+      <h4>🕹️ Interação e Física</h4>
+      <p>Implementar entrada do jogador e detecção de colisões, com resposta física entre os objetos.</p>
     </td>
   </tr>
 </table>
 
 ---
 
-<a id="como-jogar"></a>
-## 🕹️ Como Jogar
+<a id="conteudos"></a>
+## 📚 Conteúdos Estudados
 
-| Ação | Tecla / Controle |
+| Tema | O que é estudado |
 |---|---|
-| Mover para esquerda | ← ou A |
-| Mover para direita | → ou D |
-| Pular | Espaço ou W |
-| Atacar / Interagir | Z ou Botão do mouse |
-| Pausar | ESC |
-| Reiniciar fase | R |
+| **Jogos 2D e 3D** | Diferenças de abordagem, sistemas de coordenadas, câmeras e renderização |
+| **Programação** | Game loop, cenas, estados do jogo e organização do código em componentes |
+| **Sprites** | Imagens, spritesheets, atlas de texturas e gerenciamento de assets |
+| **Animações** | Animação quadro a quadro, transições e efeitos visuais |
+| **Interação com o jogador** | Teclado, mouse, toque e feedback visual/sonoro |
+| **Detecção de colisões** | Colisões entre objetos, áreas de sobreposição e física 2D |
+| **Engines e ferramentas** | Uso de frameworks/engines, editores de mapas e ferramentas de arte e áudio |
 
 ---
 
-<a id="ferramentas-e-tecnologias"></a>
+<a id="ferramentas"></a>
 ## ⚙️ Ferramentas e Tecnologias
 
 ### Stack Tecnológico
@@ -142,7 +117,7 @@ Este projeto foi desenvolvido como trabalho avaliativo, aplicando na prática os
 
 </div>
 
-### Ferramentas de Desenvolvimento
+### Ferramentas de Apoio
 
 <table>
   <tr>
@@ -173,31 +148,26 @@ Este projeto foi desenvolvido como trabalho avaliativo, aplicando na prática os
 
 ---
 
-<a id="estrutura-do-repositório"></a>
+<a id="estrutura"></a>
 ## 🧱 Estrutura do Repositório
 
 ```
-nome-do-jogo/
+pixel-mind/
 │
-├── 📁 src/                         # Código-fonte do jogo
-│   ├── scenes/                     # Cenas do Phaser
-│   │   ├── BootScene.js            # Carregamento inicial de assets
-│   │   ├── MenuScene.js            # Menu principal
-│   │   ├── GameScene.js            # Cena principal do jogo
-│   │   └── GameOverScene.js        # Tela de fim de jogo
-│   ├── objects/                    # Classes de entidades (player, inimigos, itens)
-│   ├── utils/                      # Funções utilitárias
-│   └── main.js                     # Configuração principal do Phaser (config, dimensões, física)
+├── 📁 exercicios/                  # Exercícios e experimentos por tema
+│   ├── 01-fundamentos/             # Game loop, cenas e configuração do Phaser
+│   ├── 02-sprites-animacoes/       # Sprites, spritesheets e animações
+│   ├── 03-interacao/               # Entrada do jogador (teclado, mouse, toque)
+│   └── 04-colisoes-fisica/         # Colisões e física 2D
 │
-├── 📁 assets/                      # Recursos do jogo
+├── 📁 assets/                      # Recursos utilizados nos exercícios
 │   ├── sprites/                    # Spritesheets e imagens
 │   ├── audio/                      # Músicas e efeitos sonoros
-│   ├── tilemaps/                   # Mapas de fase
-│   └── screenshots/                # Capturas de tela e GIFs para o README
+│   └── tilemaps/                   # Mapas
 │
-├── 📁 docs/                        # Documentação adicional
+├── 📁 docs/                        # Anotações e material de estudo
 │
-├── 📄 index.html                   # Ponto de entrada do jogo
+├── 📄 index.html                   # Ponto de entrada
 ├── 📄 package.json                 # Dependências e scripts
 ├── 📄 LICENSE                      # Licença do projeto
 └── 📄 README.md                    # Este arquivo
@@ -205,26 +175,24 @@ nome-do-jogo/
 
 ---
 
-<a id="instalação-e-execução"></a>
-## 🚀 Instalação e Execução
+<a id="ambiente"></a>
+## 🚀 Ambiente de Desenvolvimento
 
 ### Pré-requisitos
-
-Certifique-se de ter as seguintes ferramentas instaladas:
 
 | Ferramenta | Versão Mínima | Instalação |
 |---|---|---|
 | **Node.js** | `>= 18.0` | [nodejs.org](https://nodejs.org/) |
 | **npm** | `>= 9.0` | Instalado junto com o Node.js |
-| **Navegador atualizado** | Chrome, Firefox ou Edge | — |
 | **Git** | Qualquer versão recente | [git-scm.com](https://git-scm.com/) |
+| **Navegador atualizado** | Chrome, Firefox ou Edge | — |
 
-### Instalação Rápida
+### Instalação e Execução
 
 **1. Clone o repositório**
 ```bash
-git clone https://github.com/usuario/nome-do-jogo.git
-cd nome-do-jogo
+git clone https://github.com/usuario/pixel-mind.git
+cd pixel-mind
 ```
 
 **2. Instale as dependências**
@@ -238,62 +206,51 @@ npm run dev
 ```
 Abra o navegador no endereço indicado no terminal (geralmente `http://localhost:8080` ou `http://localhost:5173`).
 
-> 💡 Caso o projeto não utilize um bundler (Vite/Webpack), basta abrir o arquivo `index.html` diretamente no navegador ou servir a pasta com uma extensão como *Live Server* (VS Code).
+> 💡 Se o projeto não utilizar um bundler (Vite/Webpack), basta abrir o `index.html` no navegador ou servir a pasta com a extensão *Live Server* do VS Code.
 
-**4. Build para produção** *(se aplicável)*
-```bash
-npm run build
-```
-Os arquivos finais serão gerados na pasta `dist/`.
-
-### Verificação da Instalação
-
-Após executar `npm run dev`, o jogo deve carregar o menu principal automaticamente no navegador. Se a tela ficar em branco, verifique o console do navegador (F12) para mensagens de erro.
+Se a tela ficar em branco, verifique o console do navegador (F12) para mensagens de erro.
 
 ---
 
-<a id="capturas-de-tela"></a>
-## 🖼️ Capturas de Tela e Demonstração
+<a id="roadmap"></a>
+## 🗺️ Roadmap de Estudos
 
-*(Insira aqui imagens ou GIFs do jogo em funcionamento. Salve as mídias na pasta `assets/screenshots/` e referencie os caminhos abaixo.)*
+**Etapa 1 — Fundamentos**
+- [x] Conceitos de jogos digitais, 2D e 3D
+- [x] Game loop e ciclo de vida de cenas
+- [x] Configuração de um projeto com Phaser
 
-| Tela Inicial | Gameplay | Game Over |
-|---|---|---|
-| ![Tela inicial](assets/screenshots/menu.png) | ![Gameplay](assets/screenshots/gameplay.gif) | ![Game Over](assets/screenshots/gameover.png) |
+**Etapa 2 — Sprites e Animações**
+- [x] Carregamento e gerenciamento de assets
+- [x] Sprites e spritesheets
+- [ ] Animações de personagens e objetos
 
-**[🎥 Vídeo de demonstração completo →](#)** *(link opcional para YouTube/Drive)*
+**Etapa 3 — Interação com o Jogador**
+- [x] Entrada por teclado e mouse
+- [x] Movimentação de personagens
+- [ ] Feedback visual e sonoro
+
+**Etapa 4 — Colisões e Física**
+- [x] Detecção de colisões
+- [x] Física 2D (Arcade Physics)
+- [ ] Regras de interação entre objetos
+
+**Etapa 5 — Engines e Ferramentas**
+- [ ] Comparativo entre engines e frameworks
+- [ ] Editores de mapas e ferramentas de arte e áudio
+- [ ] Introdução ao desenvolvimento 3D
 
 ---
 
 <a id="contribuindo"></a>
 ## 🤝 Contribuindo
 
-Contribuições dos integrantes do grupo devem seguir um fluxo organizado de Git para facilitar o trabalho colaborativo.
+Os integrantes da equipe seguem um fluxo organizado de Git para o trabalho colaborativo:
 
-### Como Contribuir
-
-1. **Clone o projeto**
-   ```bash
-   git clone https://github.com/usuario/nome-do-jogo.git
-   ```
-2. **Crie uma branch**
-   ```bash
-   git checkout -b feature/NomeDaFuncionalidade
-   ```
-3. **Faça suas alterações**
-   - Siga os padrões de código do projeto
-   - Teste as alterações antes de subir
-   - Atualize a documentação, se necessário
-4. **Commit semântico**
-   ```bash
-   git commit -m 'feat: adiciona sistema de pontuação'
-   ```
-5. **Push e Pull Request**
-   ```bash
-   git push origin feature/NomeDaFuncionalidade
-   ```
-
-### Padrões de Commit
+1. Crie uma branch: `git checkout -b feature/NomeDaFuncionalidade`
+2. Faça as alterações e teste antes de subir
+3. Commit semântico: `git commit -m 'feat: adiciona exemplo de colisão'`
+4. Envie e abra um Pull Request: `git push origin feature/NomeDaFuncionalidade`
 
 | Prefixo | Uso |
 |---|---|
@@ -306,69 +263,7 @@ Contribuições dos integrantes do grupo devem seguir um fluxo organizado de Git
 
 ---
 
-<a id="roadmap"></a>
-## 🗺️ Roadmap
-
-** Etapa 1 — Setup do Projeto **
-- [x] Definição do enredo e mecânicas principais
-- [x] Criar página HTML básica
-- [x] Configuração do projeto com Phaser
-- [x] Criar instância básica do jogo
-- [x] Configurar JavaScript Config para Phaser
-
-** Etapa 2 — Jogo Assets Projeto**
-- [x] Adicionar assets do projeto
-- [x] Documentar fontes dos assets
-
-** Etapa 3 — Sistema de Batalha**
-- [ ] Carregar assets do jogo
-- [ ] Criar layouts de Cena de Batalha
-- [ ] Criar menu de diálogo
-- [ ] Criar menu de opções
-- [ ] Criar lista de ataques
-- [ ] Implementar entrada do jogador
-- [ ] Separar lógica em componentes
-- [ ] Criar componente de vida
-- [ ] Criar compoentes de monstro
-- [ ] Implementar lógica básica de ataques
-- [ ] Implementar dano
-- [ ] Implementar nocaute
-- [ ] Projetar máquina de estados
-- [ ] Implementar estados de batalha
-- [ ] Implementar estado de item
-- [ ] Implementar estado de fuga
-- [ ] Implementar estado de monstro
-- [ ] Adicionar animações de texto
-- [ ] Adicionar animações de monstros
-- [ ] Adicionar animações de ataques
-- [ ] Adicionar transições de cena
-
-** Etapa 4 - Ferramentas de Desenvolvimento **
-- [ ] Integrar Tweakpane
-- [ ] Ajustar posicionamento de objetos
-- [ ] Testar ataques
-- [ ] Testar animações
-
-** Etapa 5 - Tela de Titulo **
-- [ ] Criar tela de título
-- [ ] Criar menu de opções
-- [ ] Implementar salvamento das opções
-- [ ] Implementar carregamento das oções
-- [ ] Integrar opções com a Battle Scene
-
-** Etapa 6 - Mapa **
-- [ ] Criar World Scene
-- [ ] Implementar movimentação
-- [ ] Implementar mapas
-- [ ] Implementar colisões
-- [ ] Implementar interação
-- [ ] Integrar exploração e batalhas
-- [ ] Expandir o mundo do jogo
-
-> As tarefas de World Scene ainda estão em fase de planejamento e serão detalhadas conforme o desenvolvimento avançar.  
----
-
-<a id="licença"></a>
+<a id="licenca"></a>
 ## 📄 Licença
 
 Este projeto é de uso acadêmico, desenvolvido para a disciplina de **Desenvolvimento de Jogos Digitais**, e está licenciado sob a **Licença MIT** — veja o arquivo [LICENSE](LICENSE) para detalhes completos.
@@ -384,20 +279,21 @@ Este projeto é de uso acadêmico, desenvolvido para a disciplina de **Desenvolv
 
 <table>
   <tr>
-    <td align="center">
+    <td align="center" width="25%">
+      <sub><b>Silvia Debussi de Paiva</b></sub><br>
+      <a href="https://github.com/usuario">GitHub</a> · <a href="https://linkedin.com/in/usuario">LinkedIn</a>
+    </td>
+    <td align="center" width="25%">
       <sub><b>Luiz Fernando Pereira</b></sub><br>
-      <sub>🎮 Programação (Game Logic)</sub><br>
-      <a href="">GitHub</a> · <a href="">LinkedIn</a>
+      <a href="https://github.com/usuario">GitHub</a> · <a href="https://linkedin.com/in/usuario">LinkedIn</a>
     </td>
-    <td align="center">
+    <td align="center" width="25%">
+      <sub><b>Leornando de Souza Arrichette</b></sub><br>
+      <a href="https://github.com/usuario">GitHub</a> · <a href="https://linkedin.com/in/usuario">LinkedIn</a>
+    </td>
+    <td align="center" width="25%">
       <sub><b>Tadeu Furtado Henriques</b></sub><br>
-      <sub>🎨 Arte / Design</sub><br>
-      <a href="">GitHub</a> · <a href="">LinkedIn</a>
-    </td>
-    <td align="center">
-      <sub><b>Nome do Integrante 3</b></sub><br>
-      <sub>🧩 Level Design / QA</sub><br>
-      <a href="">GitHub</a> · <a href="">LinkedIn</a>
+      <a href="https://github.com/usuario">GitHub</a> · <a href="https://linkedin.com/in/usuario">LinkedIn</a>
     </td>
   </tr>
 </table>
@@ -407,8 +303,8 @@ Este projeto é de uso acadêmico, desenvolvido para a disciplina de **Desenvolv
 | | |
 |---|---|
 | **Disciplina** | Desenvolvimento de Jogos Digitais |
-| **Professor(a)** | *Christien Lana* |
-| **Instituição** | *Centro Universitário - UniAcademia* |
+| **Professor** | Christien Lana |
+| **Instituição** | Centro Universitário UniAcademia |
 
 ---
 
@@ -428,14 +324,14 @@ Este projeto é de uso acadêmico, desenvolvido para a disciplina de **Desenvolv
 <a id="contato"></a>
 ## 📞 Contato
 
-Em caso de dúvidas sobre este projeto, entre em contato com qualquer integrante do grupo listado na seção [Equipe](#equipe).
+Em caso de dúvidas sobre este repositório, entre em contato com qualquer integrante da equipe listado na seção [Equipe](#equipe).
 
 ---
 
 <div align="center">
 
-**Desenvolvido com 🎮 e ☕ pela equipe [Nome do Grupo]**
+**Desenvolvido com 🎮 e ☕ pela equipe Pixel Mind**
 
-⭐ **Se este projeto foi útil, considere dar uma estrela!**
+⭐ **Se este repositório foi útil, considere dar uma estrela!**
 
 </div>
