@@ -105,9 +105,9 @@ O jogador assume o manto de **Kael, o Guardião Silvestre**, uma entidade elemen
 
 ## 👥 6. Integrantes do Grupo 02
 
-* **Integrante 1:** [Nome Completo] - *Game Design e Level Design*
-* **Integrante 2:** [Nome Completo] - *Física e Mecânicas do Jogador (Pulo/Planar)*
-* **Integrante 3:** [Nome Completo] - *Inimigos, Inteligência Artificial e HUD*
-* **Integrante 4:** [Nome Completo] - *Documentação, Áudio e Publicação no GitHub*
+* **Integrante 1:** Tadeu Furtado Henriques - *Game Design e Level Design*
+* **Integrante 2:** Silvia Debussi de Paiva - *Física e Mecânicas do Jogador (Pulo/Planar)*
+* **Integrante 3:** Leonando de Souza Arrichette - *Inimigos, Inteligência Artificial e HUD*
+* **Integrante 4:** Luiz Fernando Pereira - *Documentação, Áudio e Publicação no GitHub*
 
 ---
