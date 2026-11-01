@@ -122,10 +122,10 @@ lendas-do-sertao/
 
 | Integrante | Responsabilidade |
 |---|---|
-| _(Nome 1)_ | Exploração: mapa, movimentação, câmera |
-| _(Nome 2)_ | Batalha: turnos, tipos, captura |
-| _(Nome 3)_ | Arte, interface, áudio e menus |
-| _(Nome 4)_ | Dados das criaturas, balanceamento, README e GitHub |
+| Leonardo de Souza Arrichette | Exploração: mapa, movimentação, câmera |
+| Tadeu Furtato Henriques | Batalha: turnos, tipos, captura |
+| Silvia Debussi de Paiva | Arte, interface, áudio e menus |
+| Luiz Fernando Pereira | Dados das criaturas, balanceamento, README e GitHub |
 
 ---
 
