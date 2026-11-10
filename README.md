@@ -281,15 +281,15 @@ Este projeto é de uso acadêmico, desenvolvido para a disciplina de **Desenvolv
   <tr>
     <td align="center" width="25%">
       <sub><b>Silvia Debussi de Paiva</b></sub><br>
-      <a href="https://github.com/usuario">GitHub</a> · <a href="https://linkedin.com/in/usuario">LinkedIn</a>
+      <a href="https://github.com/silviaDebussii">GitHub</a> · <a href="https://www.linkedin.com/in/silvia-debussi-5b1aa5232/">LinkedIn</a>
     </td>
     <td align="center" width="25%">
       <sub><b>Luiz Fernando Pereira</b></sub><br>
-      <a href="https://github.com/usuario">GitHub</a> · <a href="https://linkedin.com/in/usuario">LinkedIn</a>
+      <a href="https://github.com/ferdnandopereira">GitHub</a> · <a href="https://www.linkedin.com/in/luiz-fernando-pereira-software-engenheiro/">LinkedIn</a>
     </td>
     <td align="center" width="25%">
       <sub><b>Leornando de Souza Arrichette</b></sub><br>
-      <a href="https://github.com/usuario">GitHub</a> · <a href="https://linkedin.com/in/usuario">LinkedIn</a>
+      <a href="https://github.com/LArrichette">GitHub</a> · <a href="https://linkedin.com/in/usuario">LinkedIn</a>
     </td>
     <td align="center" width="25%">
       <sub><b>Tadeu Furtado Henriques</b></sub><br>
