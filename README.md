@@ -223,7 +223,7 @@ Se a tela ficar em branco, verifique o console do navegador (F12) para mensagens
 **Etapa 2 — Sprites e Animações**
 - [x] Carregamento e gerenciamento de assets
 - [x] Sprites e spritesheets
-- [ ] Animações de personagens e objetos
+- [x] Animações de personagens e objetos
 
 **Etapa 3 — Interação com o Jogador**
 - [x] Entrada por teclado e mouse
