@@ -228,17 +228,17 @@ Se a tela ficar em branco, verifique o console do navegador (F12) para mensagens
 **Etapa 3 — Interação com o Jogador**
 - [x] Entrada por teclado e mouse
 - [x] Movimentação de personagens
-- [ ] Feedback visual e sonoro
+- [x] Feedback visual e sonoro
 
 **Etapa 4 — Colisões e Física**
 - [x] Detecção de colisões
 - [x] Física 2D (Arcade Physics)
-- [ ] Regras de interação entre objetos
+- [x] Regras de interação entre objetos
 
 **Etapa 5 — Engines e Ferramentas**
-- [ ] Comparativo entre engines e frameworks
-- [ ] Editores de mapas e ferramentas de arte e áudio
-- [ ] Introdução ao desenvolvimento 3D
+- [x] Comparativo entre engines e frameworks
+- [x] Editores de mapas e ferramentas de arte e áudio
+- [x] Introdução ao desenvolvimento 3D
 
 ---
 
